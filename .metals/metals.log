@@ -1,0 +1,346 @@
+2023.01.04 18:27:45 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kechidi/scala/.metals/lsp.trace.json or /home/kechidi/.cache/metals/lsp.trace.json
+2023.01.04 18:27:47 INFO  logging to file /home/kechidi/scala/.metals/metals.log
+2023.01.04 18:27:47 INFO  Started: Metals version 0.11.10 in workspace '/home/kechidi/scala' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/kechidi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.04 18:27:51 INFO  time: initialize in 4.61s
+2023.01.04 18:27:55 WARN  Build server is not auto-connectable.
+2023.01.04 18:27:55 WARN  no build tool detected in workspace '/home/kechidi/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.04 18:27:55 WARN  no build target for: /home/kechidi/scala/Queue.scala
+2023.01.04 18:27:55 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.04 18:28:11 INFO  no build target found for /home/kechidi/scala/Queue.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.04 18:28:14 INFO  time: code lens generation in 16s
+2023.01.04 18:28:14 INFO  time: code lens generation in 18s
+2023.01.04 18:30:32 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 18:31:04 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 18:31:04 WARN  no build target for: /home/kechidi/scala/Main.scala
+janv. 04, 2023 7:05:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 112
+janv. 04, 2023 7:12:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 167
+janv. 04, 2023 7:20:52 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+	at java.base/java.lang.String.charAt(String.java:693)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.pc.PcCollector.adjust(PcCollector.scala:69)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.collect(PcDocumentHighlightProvider.scala:18)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.collect(PcDocumentHighlightProvider.scala:17)
+	at scala.meta.internal.pc.PcCollector.collectNames$1(PcCollector.scala:279)
+	at scala.meta.internal.pc.PcCollector.$anonfun$11(PcCollector.scala:357)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1663)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1529)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1531)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1624)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1663)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1621)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1663)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1529)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1531)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1630)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1663)
+	at scala.meta.internal.pc.PcCollector.result(PcCollector.scala:358)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:25)
+
+2023.01.04 19:30:28 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 19:53:29 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kechidi/scala/.metals/lsp.trace.json or /home/kechidi/.cache/metals/lsp.trace.json
+2023.01.04 19:53:31 INFO  logging to file /home/kechidi/scala/.metals/metals.log
+2023.01.04 19:53:31 INFO  Started: Metals version 0.11.10 in workspace '/home/kechidi/scala' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/kechidi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.04 19:53:40 INFO  time: initialize in 9.24s
+2023.01.04 19:53:44 WARN  Build server is not auto-connectable.
+2023.01.04 19:53:44 WARN  no build tool detected in workspace '/home/kechidi/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.04 19:53:44 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 19:53:50 INFO  no build target found for /home/kechidi/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.04 19:53:54 INFO  time: code lens generation in 10s
+janv. 04, 2023 7:56:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 11
+janv. 04, 2023 7:58:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 108
+janv. 04, 2023 7:58:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 2886, end 2920, length 2746
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 2886, end 2920, length 2746
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 2886, end 2920, length 2746
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.01.04 19:58:52 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 19:59:08 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 20:00:26 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 20:01:45 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 20:05:35 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 20:08:21 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 20:10:52 WARN  no build target for: /home/kechidi/scala/Main.scala
+janv. 04, 2023 8:11:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 420
+janv. 04, 2023 8:11:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 2624, end 2639, length 2454
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 2624, end 2639, length 2454
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 2624, end 2639, length 2454
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.01.04 20:11:25 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 20:15:34 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 20:16:15 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 23:06:38 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 23:07:39 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 23:07:48 WARN  no build target for: /home/kechidi/scala/Main.scala
+janv. 04, 2023 11:08:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 637
+2023.01.04 23:08:12 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 23:08:47 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 23:10:16 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 23:14:44 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.04 23:16:40 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.05 18:18:37 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kechidi/scala/.metals/lsp.trace.json or /home/kechidi/.cache/metals/lsp.trace.json
+2023.01.05 18:18:41 INFO  logging to file /home/kechidi/scala/.metals/metals.log
+2023.01.05 18:18:41 INFO  Started: Metals version 0.11.10 in workspace '/home/kechidi/scala' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/kechidi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.05 18:18:49 INFO  time: initialize in 8.04s
+2023.01.05 18:18:57 WARN  Build server is not auto-connectable.
+2023.01.05 18:18:57 WARN  no build tool detected in workspace '/home/kechidi/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.05 18:18:57 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.05 18:19:11 INFO  no build target found for /home/kechidi/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.05 18:19:19 INFO  time: code lens generation in 19s
+2023.01.05 18:22:10 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.05 18:22:33 WARN  no build target for: /home/kechidi/scala/Main.scala
+2023.01.05 18:34:11 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 05, 2023 6:34:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 34
+2023.01.05 19:30:44 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.05 19:31:51 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.05 19:32:11 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.05 19:32:29 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.05 19:33:49 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 05, 2023 7:35:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 203
+2023.01.05 19:37:21 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.05 19:38:10 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.05 19:38:55 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 05, 2023 7:59:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 307
+janv. 05, 2023 7:59:43 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: index -1,length 6600
+java.lang.StringIndexOutOfBoundsException: index -1,length 6600
+	at java.base/java.lang.String.checkIndex(String.java:3278)
+	at java.base/java.lang.StringUTF16.checkIndex(StringUTF16.java:1470)
+	at java.base/java.lang.StringUTF16.charAt(StringUTF16.java:1267)
+	at java.base/java.lang.String.charAt(String.java:695)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.pc.PcCollector.adjust(PcCollector.scala:69)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.collect(PcDocumentHighlightProvider.scala:18)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.collect(PcDocumentHighlightProvider.scala:17)
+	at scala.meta.internal.pc.PcCollector.collectNames$1(PcCollector.scala:279)
+	at scala.meta.internal.pc.PcCollector.$anonfun$11(PcCollector.scala:357)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1663)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1529)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1531)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1624)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1663)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1621)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1663)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1529)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1531)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1630)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$DeepFolder.apply(Trees.scala:1663)
+	at scala.meta.internal.pc.PcCollector.result(PcCollector.scala:358)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:25)
+
+2023.01.05 19:59:46 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.05 20:00:25 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.05 20:00:49 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 05, 2023 8:00:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 395
+2023.01.05 20:01:39 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.12 16:00:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/kechidi/scala/.metals/lsp.trace.json or /home/kechidi/.cache/metals/lsp.trace.json
+2023.01.12 16:00:57 INFO  logging to file /home/kechidi/scala/.metals/metals.log
+2023.01.12 16:00:57 INFO  Started: Metals version 0.11.10 in workspace '/home/kechidi/scala' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/kechidi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.12 16:00:52 INFO  time: initialize in 7.84s
+2023.01.12 16:00:59 WARN  Build server is not auto-connectable.
+2023.01.12 16:00:59 WARN  no build tool detected in workspace '/home/kechidi/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.12 16:00:59 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.12 16:01:11 INFO  no build target found for /home/kechidi/scala/tp_kechidi.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.12 16:01:16 INFO  time: code lens generation in 16s
+2023.01.12 16:01:16 INFO  time: code lens generation in 16s
+janv. 12, 2023 4:02:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 21
+2023.01.12 16:02:45 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.12 16:02:45 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.12 16:03:11 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.12 16:03:42 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.12 16:04:09 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.12 16:04:09 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 12, 2023 4:08:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 197
+janv. 12, 2023 4:09:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 321
+janv. 12, 2023 4:10:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 427
+2023.01.12 16:10:45 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.12 16:11:44 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 12, 2023 4:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 654
+2023.01.12 16:12:55 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.12 16:14:03 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 12, 2023 4:15:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 722
+janv. 12, 2023 4:21:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 932
+janv. 12, 2023 4:22:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1096
+janv. 12, 2023 4:22:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1115
+janv. 12, 2023 4:22:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1113
+janv. 12, 2023 4:23:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1188
+janv. 12, 2023 4:23:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1228
+janv. 12, 2023 4:24:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1288
+janv. 12, 2023 4:24:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1293
+janv. 12, 2023 4:24:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1332
+janv. 12, 2023 4:24:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1349
+janv. 12, 2023 4:26:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1552
+2023.01.12 16:26:38 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 12, 2023 4:26:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1644
+janv. 12, 2023 4:27:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1678
+janv. 12, 2023 4:27:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1696
+2023.01.12 16:27:49 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.12 16:28:15 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 12, 2023 4:28:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1793
+janv. 12, 2023 4:28:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1835
+janv. 12, 2023 4:29:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1964
+2023.01.12 16:29:34 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 12, 2023 4:30:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2106
+janv. 12, 2023 4:31:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2166
+2023.01.12 16:38:51 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 13, 2023 9:18:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2453
+janv. 13, 2023 9:19:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2600
+janv. 13, 2023 9:20:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3009
+2023.01.13 21:21:14 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:21:45 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:26:22 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:27:00 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:27:43 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:28:46 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:29:44 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:30:05 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:38:45 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:41:10 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:41:46 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 13, 2023 9:42:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3638
+2023.01.13 21:42:28 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 13, 2023 9:42:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3677
+janv. 13, 2023 9:43:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3728
+janv. 13, 2023 9:43:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3740
+2023.01.13 21:43:39 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:43:50 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:43:58 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:44:10 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:44:54 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 21:45:17 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 13, 2023 10:32:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4006
+2023.01.13 22:32:55 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 22:33:26 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 13, 2023 10:33:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4182
+2023.01.13 22:35:30 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 22:35:42 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 22:35:52 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+janv. 13, 2023 10:36:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4396
+2023.01.13 22:36:05 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 22:36:23 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 22:36:35 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 22:39:10 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 22:39:16 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
+2023.01.13 22:39:23 WARN  no build target for: /home/kechidi/scala/tp_kechidi.scala
